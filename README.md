@@ -19,7 +19,6 @@ Skip this installation steps and jump to step 2 if you decide to use any of thos
 
 The following steps are automatically runned withing gitpod, if you are doing a local installation you have to do them manually:
 
-```sh
 pipenv install;
 psql -U root -c 'CREATE DATABASE example;'
 pipenv run init;
